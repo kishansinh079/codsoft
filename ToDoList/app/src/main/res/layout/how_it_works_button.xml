@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/howItWorksBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@drawable/button_background"
+    android:gravity="center_vertical"
+    android:layout_margin="8dp">
+
+    <FrameLayout
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/circle_black"
+        android:layout_marginEnd="8dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_play"
+            android:tint="#FFFFFF"
+            android:scaleType="centerInside"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/howItWorksText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How it "
+        android:textColor="#333333"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/howItWorksHighlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="works"
+        android:textColor="#FFA366"
+        android:textSize="16sp"/>
+</LinearLayout>

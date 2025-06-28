@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	app:cardCornerRadius="8dp"
+	app:cardElevation="8dp"
+	android:background="#FFFFFF"
+	android:padding="12dp">
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<androidx.cardview.widget.CardView
+			android:id="@+id/saved_"
+			android:layout_marginHorizontal="8dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@color/ic_bg"
+			android:layout_marginBottom="10dp"
+			android:padding="5dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Saved Quotes"
+			android:textSize="18sp"
+			android:padding="8dp" />
+		</androidx.cardview.widget.CardView>
+		<androidx.cardview.widget.CardView
+			android:id="@+id/all_"
+			android:layout_marginHorizontal="8dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/ic_bg"
+			android:layout_marginBottom="20dp"
+			android:padding="5dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:text="All Quotes"
+			android:textSize="18sp"
+			android:padding="8dp" />
+		</androidx.cardview.widget.CardView>
+
+	</LinearLayout>
+</androidx.cardview.widget.CardView>

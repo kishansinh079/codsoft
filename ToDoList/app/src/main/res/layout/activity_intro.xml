@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context=".IntroActivity">
+    <!-- How it Works Button -->
+    <include layout="@layout/how_it_works_button"
+        android:id="@+id/btn_how_it_works"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_how_it_works"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="How it works"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:backgroundTint="#F0F0F0"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="16sp"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_marginBottom="12dp"-->
+<!--        android:background="@drawable/rounded_button_secondary" />-->
+
+    <ImageView
+        android:id="@+id/illustration"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_intro"
+    android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manage Your\nEveryday Task List"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/text_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keep track of your daily tasks and get more done."
+        android:textSize="16sp"
+        android:textColor="#7A7A7A"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btn_get_started"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:backgroundTint="#FF7A5C"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_button" />
+</LinearLayout>

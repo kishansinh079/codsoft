@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <!-- Quote Card -->
+<!--    <LinearLayout-->
+<!--        android:id="@+id/quoteCard"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="24dp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:elevation="6dp"-->
+<!--        android:layout_margin="12dp"-->
+<!--        android:gravity="center">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvQuote"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Loading quote..." />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvAuthor"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textColor="#EEEEEE"-->
+<!--            android:gravity="center" />-->
+<!--    </LinearLayout>-->
+
+<!--    &lt;!&ndash; Share Icon &ndash;&gt;-->
+<!--    <ImageView-->
+<!--        android:id="@+id/btnShare"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/quoteCard"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:src="@drawable/share"-->
+<!--        android:contentDescription="Share Quote" />-->
+</RelativeLayout>
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:id="@+id/quoteLayout"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:padding="24dp">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvQuote"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Quote will appear here"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_centerInParent="true" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvAuthor"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="- Author"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textColor="#DDDDDD"-->
+<!--        android:layout_below="@id/tvQuote"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="8dp" />-->
+
+<!--</RelativeLayout>-->
